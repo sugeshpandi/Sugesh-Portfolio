@@ -146,14 +146,14 @@ header img {
   overflow: hidden;
 }
 
-.button span {
+.button a {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.4s;
 }
 
-.button span:after {
+.button a:after {
   content: "Download";
   position: absolute;
   opacity: 0;
@@ -161,11 +161,11 @@ header img {
   transition: 0.25s;
 }
 
-.button:hover span {
+.button:hover a {
   padding-left: 6rem;
 }
 
-.button:hover span:after {
+.button:hover a:after {
   opacity: 4;
   right: 70px;
 }
